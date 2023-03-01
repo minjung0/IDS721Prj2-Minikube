@@ -3,9 +3,9 @@ install:
 		pip install -r requirements.txt
 
 lint:
-	pylint --disable=R,C,W1203,W0702 main.py
+	pylint --disable=R,C,W1203,W0702 app.py
 
 test:
-	python -m pytest -vv test_main.py
+	python -m pytest -vv test_app.py
 
 all: install lint test
