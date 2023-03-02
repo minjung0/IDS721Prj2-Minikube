@@ -13,6 +13,12 @@ This service provides the latest exchange rates from your base currency to 161 w
 Enter the base currency using a 3-letter abbreviation: e.g. `/USD` or `/EUR`  
 You can check all supported currencies and currency codes [here](https://www.exchangerate-api.com/docs/supported-currencies). 
 
+- with `/`
+<img width="489" alt="slash" src="https://user-images.githubusercontent.com/90014065/222308817-13af13d2-b007-46af-973b-255f28428b2c.png">
+
+- with `/USD`
+<img width="491" alt="slash USD" src="https://user-images.githubusercontent.com/90014065/222308835-baf0ec86-6ca0-4aae-b427-ac4df31866b4.png">
+
 ________
 
 ### 2. Build and push image to DockerHub
